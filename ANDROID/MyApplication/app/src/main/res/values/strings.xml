@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="title_activity_db">DBActivity</string>
+    <string name="uname">Username</string>
+    <string name="pass">Password</string>
+    <string name="mail">E-mail</string>
+    <string name="fname">First name</string>
+    <string name="lname">Last name</string>
+    <string name="sd">Save data</string>
+    <string name="dv">Database</string>
+    <string name="show">Show</string>
+    <string name="back">Back</string>
+</resources>

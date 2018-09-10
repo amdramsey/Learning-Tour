@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SaveMyData</string>
+    <string name="hello_world">Hello World!</string>
+    <string name="enter_your_text">Enter your text here</string>
+</resources>

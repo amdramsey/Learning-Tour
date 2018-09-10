@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Historical Places</string>
+    <string name="rate">Evaluation</string>
+    <string name="petra">Petra</string>
+    <string name="bahrain_castle">Bahrain Castle - Old Port and the capital of Delmon</string>
+    <string name="gemayle">Gemayle</string>
+    <string name="the_stone">The Stone (Madain Saleh)</string>
+    <string name="meroe_island">Archaeological sites in Meroe Island</string>
+    <string name="urban">Kingdom of the Urban</string>
+    <string name="fez">Old City of Fez</string>
+    <string name="shibam">Old City of Shibam and Surra</string>
+    <string name="tunis">Ancient Tunis City</string>
+    <string name="labban">Al-Labban Land</string>
+    <string name="zubara">Al-Zubara Fort</string>
+    <string name="hitan">Wadi Al-Hitan</string>
+    <string name="shanqeet">Palaces, Wadan, Shanqeet, Tishit and Old Cholatah</string>
+    <string name="baalbek">Baalbek</string>
+    <string name="tatarrat">Tatarrat Akakos Rocky Sites</string>
+    <string name="nativity">Church of the Nativity</string>
+    <string name="jordan">Jordan</string>
+    <string name="bahrain">Bahrain</string>
+    <string name="algeria">Algeria</string>
+    <string name="saudi">Saudi</string>
+    <string name="sudan">Sudan</string>
+    <string name="iraq">Iraq</string>
+    <string name="morocco">Morocco</string>
+    <string name="to_whom">To whom</string>
+    <string name="tunisia">Tunisia</string>
+    <string name="amman">Amman</string>
+    <string name="diameter">Diameter</string>
+    <string name="egypt">Egypt</string>
+    <string name="mauritania">Mauritania</string>
+    <string name="lebanon">Lebanon</string>
+    <string name="libya">Libya</string>
+    <string name="palestine">Palestine</string>
+    <string name="evaluation">Evaluation</string>
+    <string name="clear">Clear all ratings</string>
+</resources>

@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+/Users/apple/Documents/WS/SCALA/.metadata/.plugins/org.eclipse.jdt.core
+3893379105.index
+2114882454.index
+3318149012.index

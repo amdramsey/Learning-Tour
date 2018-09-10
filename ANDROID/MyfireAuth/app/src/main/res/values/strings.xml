@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MyfireAuth</string>
+    <string name="mail">Email</string>
+    <string name="pass">Password</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="logged_in">Logged in</string>
+    <string name="log_out">Logout</string>
+</resources>

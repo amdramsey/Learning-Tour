@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{A350E91A-CC66-4A00-930E-8C5748C0A918}|Default">
+  <MonoDevelop.Ide.ItemProperties.MultiplicationTable PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MultiplicationTable/Program.cs">
+    <Files>
+      <File FileName="MultiplicationTable/Program.cs" Line="10" Column="77" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

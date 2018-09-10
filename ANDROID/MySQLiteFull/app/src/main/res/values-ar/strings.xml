@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MySQLiteFull</string>
+    <string name="title">قواعد بيانات SQLite</string>
+    <string name="db">قاعدة البيانات</string>
+    <string name="insert">إدراج</string>
+    <string name="first_name">الإسم الأول</string>
+    <string name="last_name">الإسم الأخير</string>
+    <string name="age">العمر</string>
+    <string name="address">العنوان</string>
+    <string name="department">القسم</string>
+    <string name="refresh">تحديث</string>
+    <string name="update">تحديث</string>
+    <string name="delete">حذف</string>
+</resources>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Sidebar Navigation</string>
+    <string name="main_layout">MainLayout</string>
+</resources>

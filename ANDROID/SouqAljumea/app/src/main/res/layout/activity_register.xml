@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color7"
+    tools:context=".RegisterActivity"
+    tools:layout_editor_absoluteY="25dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:text="@string/registration"
+        android:textColor="@color/color3"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toTopOf="@+id/mail"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="spread_inside" />
+
+    <EditText
+        android:id="@+id/mail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_edit_text"
+        android:drawableStart="@drawable/user_name"
+        android:ems="10"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/color8"
+        app:layout_constraintBottom_toTopOf="@+id/name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/custom_edit_text"
+        android:drawableStart="@drawable/user_name"
+        android:ems="10"
+        android:hint="@string/name"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/color8"
+        app:layout_constraintBottom_toTopOf="@+id/repass"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mail" />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="11dp"
+        android:background="@drawable/custom_edit_text"
+        android:drawableStart="@drawable/password"
+        android:ems="10"
+        android:hint="@string/pass"
+        android:inputType="textPassword"
+        android:textColor="@color/color8"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/repass"
+        tools:ignore="RtlHardcoded" />
+
+    <EditText
+        android:id="@+id/repass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/custom_edit_text"
+        android:drawableStart="@drawable/confirm_password"
+        android:ems="10"
+        android:hint="@string/repass"
+        android:inputType="textPassword"
+        android:textColor="@color/color8"
+        app:layout_constraintBottom_toTopOf="@+id/pass"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/name"
+        tools:ignore="RtlHardcoded" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginStart="22dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pass">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_button"
+            android:text="@string/register"
+            android:textColor="@color/color8"
+            android:textSize="30sp"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_button2"
+            android:text="@string/clear"
+            android:textColor="@color/color8"
+            android:textSize="30sp"
+            tools:ignore="ButtonStyle" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

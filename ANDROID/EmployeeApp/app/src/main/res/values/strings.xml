@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Employee</string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="address">Address</string>
+    <string name="department">Department</string>
+    <string name="save">Save</string>
+    <string name="database">Database</string>
+    <string name="mail">Email</string>
+    <string name="pass">Password</string>
+    <string name="sign_in">Sign in</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="text_view">TextView</string>
+</resources>

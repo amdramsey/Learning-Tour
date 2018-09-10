@@ -1,0 +1,191 @@
+2018-08-28 01:31:46,472 ERROR [Worker-7: Decoration Calculation] - Statistics - Statistics file `/Users/apple/.scalaide/statistics` is corrupted. A new one is being created. Corrupted content was:
+
+com.cedarsoftware.util.io.JsonIoException: error parsing JSON value
+	at com.cedarsoftware.util.io.JsonReader.readObject(JsonReader.java:529)
+	at com.cedarsoftware.util.io.JsonReader.jsonToJava(JsonReader.java:289)
+	at com.cedarsoftware.util.io.JsonReader.jsonToJava(JsonReader.java:262)
+	at org.scalaide.core.internal.statistics.Statistics.read(Statistics.scala:74)
+	at org.scalaide.core.internal.statistics.Statistics.$anonfun$readStats$1(Statistics.scala:52)
+	at org.scalaide.core.internal.statistics.Statistics.$anonfun$readStats$1$adapted(Statistics.scala:51)
+	at org.scalaide.core.ScalaIdeDataStore$.$anonfun$validate$2(ScalaIdeDataStore.scala:59)
+	at org.scalaide.util.eclipse.EclipseUtils$$anon$3.run(EclipseUtils.scala:230)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.scalaide.util.eclipse.EclipseUtils$.withSafeRunner(EclipseUtils.scala:226)
+	at org.scalaide.core.ScalaIdeDataStore$.validate(ScalaIdeDataStore.scala:59)
+	at org.scalaide.core.internal.statistics.Statistics.readStats(Statistics.scala:51)
+	at org.scalaide.core.internal.statistics.Statistics.<init>(Statistics.scala:30)
+	at org.scalaide.core.internal.ScalaPlugin.stats$lzycompute(ScalaPlugin.scala:135)
+	at org.scalaide.core.internal.ScalaPlugin.stats(ScalaPlugin.scala:135)
+	at org.scalaide.core.internal.ScalaPlugin.statistics(ScalaPlugin.scala:138)
+	at org.scalaide.core.internal.ScalaPlugin.start(ScalaPlugin.scala:109)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:779)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:772)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:729)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1002)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:354)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:581)
+	at org.eclipse.osgi.container.Module.start(Module.java:449)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:468)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:114)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:505)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:328)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:392)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:470)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:419)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:411)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:150)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:499)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:609)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:177)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:931)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:60)
+	at org.eclipse.ui.internal.WorkbenchPlugin.lambda$0(WorkbenchPlugin.java:288)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:54)
+	at org.eclipse.ui.internal.WorkbenchPlugin.createExtension(WorkbenchPlugin.java:285)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition$1.run(LightweightDecoratorDefinition.java:125)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.internalGetDecorator(LightweightDecoratorDefinition.java:120)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:242)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:104)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:377)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:359)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:310)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
+Caused by: com.cedarsoftware.util.io.JsonIoException: EOF reached prematurely
+	at com.cedarsoftware.util.io.JsonParser.error(JsonParser.java:584)
+	at com.cedarsoftware.util.io.JsonParser.readValue(JsonParser.java:278)
+	at com.cedarsoftware.util.io.JsonReader.readObject(JsonReader.java:521)
+	... 54 more
+2018-08-28 01:32:34,973  WARN [ModalContext] - ScalaProject - Project Learning has platform default sourceLevel.
+2018-08-28 01:32:34,974  WARN [ModalContext] - ScalaProject - Project Learning runs on platform default installation.
+2018-08-28 01:32:40,060  WARN [Worker-7: Update Project Learning] - ScalaProject - Project Learning has platform default sourceLevel.
+2018-08-28 01:32:40,060  WARN [Worker-7: Update Project Learning] - ScalaProject - Project Learning runs on platform default installation.
+2018-08-28 01:32:40,286  WARN [Worker-9: Building workspace] - ScalaProject - Project Learning has platform default sourceLevel.
+2018-08-28 01:32:40,286  WARN [Worker-9: Building workspace] - ScalaProject - Project Learning runs on platform default installation.
+2018-08-28 01:33:41,682  WARN [Worker-8: Building workspace] - ScalaProject - Project Learning has platform default sourceLevel.
+2018-08-28 01:33:41,682  WARN [Worker-8: Building workspace] - ScalaProject - Project Learning runs on platform default installation.
+2018-08-28 01:33:54,432  WARN [main] - ScalaProject - Project Learning has platform default sourceLevel.
+2018-08-28 01:33:54,432  WARN [main] - ScalaProject - Project Learning runs on platform default installation.
+2018-08-28 01:33:57,812  WARN [main] - ScalaProject - Project Learning has platform default sourceLevel.
+2018-08-28 01:33:57,813  WARN [main] - ScalaProject - Project Learning runs on platform default installation.
+2018-08-28 01:33:58,008  WARN [Worker-0: Building workspace] - ScalaProject - Project Learning has platform default sourceLevel.
+2018-08-28 01:33:58,008  WARN [Worker-0: Building workspace] - ScalaProject - Project Learning runs on platform default installation.
+2018-08-28 01:34:01,889 ERROR [Text Viewer Hover Presenter] - System.err - Exception in thread "Text Viewer Hover Presenter"
+2018-08-28 01:34:01,889 ERROR [Text Viewer Hover Presenter] - System.err - java.lang.NoSuchMethodError: org.eclipse.jdt.internal.core.SearchableEnvironment.<init>(Lorg/eclipse/jdt/internal/core/JavaProject;Lorg/eclipse/jdt/core/WorkingCopyOwner;)V
+2018-08-28 01:34:01,889 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.core.internal.compiler.LocateSymbol.findPath$1(LocateSymbol.scala:53)
+2018-08-28 01:34:01,889 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.core.internal.compiler.LocateSymbol.findSourceFile$1(LocateSymbol.scala:73)
+2018-08-28 01:34:01,889 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.core.internal.compiler.LocateSymbol.findCompilationUnit(LocateSymbol.scala:75)
+2018-08-28 01:34:01,889 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.core.internal.compiler.LocateSymbol.findCompilationUnit$(LocateSymbol.scala:18)
+2018-08-28 01:34:01,889 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.core.internal.compiler.ScalaPresentationCompiler.findCompilationUnit(ScalaPresentationCompiler.scala:54)
+2018-08-28 01:34:01,889 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.core.internal.compiler.Scaladoc.$anonfun$parsedDocComment$3(ScalaDoc.scala:51)
+2018-08-28 01:34:01,889 ERROR [Text Viewer Hover Presenter] - System.err - at scala.collection.immutable.List.flatMap(List.scala:335)
+2018-08-28 01:34:01,889 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.core.internal.compiler.Scaladoc.listFragments$1(ScalaDoc.scala:50)
+2018-08-28 01:34:01,889 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.core.internal.compiler.Scaladoc.$anonfun$parsedDocComment$7(ScalaDoc.scala:61)
+2018-08-28 01:34:01,889 ERROR [Text Viewer Hover Presenter] - System.err - at scala.Option.flatMap(Option.scala:171)
+2018-08-28 01:34:01,889 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.core.internal.compiler.Scaladoc.$anonfun$parsedDocComment$2(ScalaDoc.scala:60)
+2018-08-28 01:34:01,889 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.core.compiler.InteractiveCompilationUnit.$anonfun$withSourceFile$1(InteractiveCompilationUnit.scala:201)
+2018-08-28 01:34:01,889 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.core.internal.compiler.PresentationCompilerProxy.$anonfun$internal$5(PresentationCompilerProxy.scala:101)
+2018-08-28 01:34:01,889 ERROR [Text Viewer Hover Presenter] - System.err - at scala.Option.flatMap(Option.scala:171)
+2018-08-28 01:34:01,889 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.core.internal.compiler.PresentationCompilerProxy.internal(PresentationCompilerProxy.scala:100)
+2018-08-28 01:34:01,889 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.core.internal.compiler.PresentationCompilerProxy.apply(PresentationCompilerProxy.scala:58)
+2018-08-28 01:34:01,889 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.core.compiler.InteractiveCompilationUnit.withSourceFile(InteractiveCompilationUnit.scala:201)
+2018-08-28 01:34:01,890 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.core.compiler.InteractiveCompilationUnit.withSourceFile$(InteractiveCompilationUnit.scala:200)
+2018-08-28 01:34:01,890 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.core.internal.jdt.model.ScalaSourceFile.withSourceFile(ScalaSourceFile.scala:71)
+2018-08-28 01:34:01,890 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.core.internal.compiler.Scaladoc.$anonfun$parsedDocComment$1(ScalaDoc.scala:48)
+2018-08-28 01:34:01,890 ERROR [Text Viewer Hover Presenter] - System.err - at scala.Option.map(Option.scala:146)
+2018-08-28 01:34:01,890 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.core.internal.compiler.Scaladoc.parsedDocComment(ScalaDoc.scala:48)
+2018-08-28 01:34:01,890 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.core.internal.compiler.Scaladoc.parsedDocComment$(ScalaDoc.scala:45)
+2018-08-28 01:34:01,890 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.core.internal.compiler.ScalaPresentationCompiler.parsedDocComment(ScalaPresentationCompiler.scala:54)
+2018-08-28 01:34:01,890 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.ui.internal.editor.hover.ScalaHoverImpl.$anonfun$getHoverInfo2$25(ScalaHoverImpl.scala:227)
+2018-08-28 01:34:01,890 ERROR [Text Viewer Hover Presenter] - System.err - at scala.Option$WithFilter.flatMap(Option.scala:171)
+2018-08-28 01:34:01,890 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.ui.internal.editor.hover.ScalaHoverImpl.docComment$lzycompute$1(ScalaHoverImpl.scala:226)
+2018-08-28 01:34:01,890 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.ui.internal.editor.hover.ScalaHoverImpl.docComment$1(ScalaHoverImpl.scala:205)
+2018-08-28 01:34:01,890 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.ui.internal.editor.hover.ScalaHoverImpl.$anonfun$getHoverInfo2$2(ScalaHoverImpl.scala:238)
+2018-08-28 01:34:01,890 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.core.compiler.InteractiveCompilationUnit.$anonfun$withSourceFile$1(InteractiveCompilationUnit.scala:201)
+2018-08-28 01:34:01,890 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.core.internal.compiler.PresentationCompilerProxy.$anonfun$internal$5(PresentationCompilerProxy.scala:101)
+2018-08-28 01:34:01,890 ERROR [Text Viewer Hover Presenter] - System.err - at scala.Option.flatMap(Option.scala:171)
+2018-08-28 01:34:01,890 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.core.internal.compiler.PresentationCompilerProxy.internal(PresentationCompilerProxy.scala:100)
+2018-08-28 01:34:01,890 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.core.internal.compiler.PresentationCompilerProxy.apply(PresentationCompilerProxy.scala:58)
+2018-08-28 01:34:01,890 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.core.compiler.InteractiveCompilationUnit.withSourceFile(InteractiveCompilationUnit.scala:201)
+2018-08-28 01:34:01,890 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.core.compiler.InteractiveCompilationUnit.withSourceFile$(InteractiveCompilationUnit.scala:200)
+2018-08-28 01:34:01,890 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.core.internal.jdt.model.ScalaSourceFile.withSourceFile(ScalaSourceFile.scala:71)
+2018-08-28 01:34:01,890 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.ui.internal.editor.hover.ScalaHoverImpl.$anonfun$getHoverInfo2$1(ScalaHoverImpl.scala:103)
+2018-08-28 01:34:01,890 ERROR [Text Viewer Hover Presenter] - System.err - at scala.Option.map(Option.scala:146)
+2018-08-28 01:34:01,890 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.ui.internal.editor.hover.ScalaHoverImpl.getHoverInfo2(ScalaHoverImpl.scala:101)
+2018-08-28 01:34:01,890 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.debug.internal.editor.TextHoverFactory$$anon$1.super$getHoverInfo2(TextHoverFactory.scala:53)
+2018-08-28 01:34:01,890 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.debug.internal.editor.TextHoverFactory$$anon$1.$anonfun$getHoverInfo2$6(TextHoverFactory.scala:53)
+2018-08-28 01:34:01,890 ERROR [Text Viewer Hover Presenter] - System.err - at scala.Option.getOrElse(Option.scala:121)
+2018-08-28 01:34:01,890 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.debug.internal.editor.TextHoverFactory$$anon$1.$anonfun$getHoverInfo2$1(TextHoverFactory.scala:51)
+2018-08-28 01:34:01,890 ERROR [Text Viewer Hover Presenter] - System.err - at scala.Option.map(Option.scala:146)
+2018-08-28 01:34:01,890 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.debug.internal.editor.TextHoverFactory$$anon$1.getHoverInfo2(TextHoverFactory.scala:37)
+2018-08-28 01:34:01,890 ERROR [Text Viewer Hover Presenter] - System.err - at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+2018-08-28 01:36:10,843  WARN [Worker-2: Building workspace] - ScalaProject - Project Learning has platform default sourceLevel.
+2018-08-28 01:36:10,844  WARN [Worker-2: Building workspace] - ScalaProject - Project Learning runs on platform default installation.
+2018-08-28 01:36:34,632  WARN [Worker-12: Building workspace] - ScalaProject - Project Learning has platform default sourceLevel.
+2018-08-28 01:36:34,632  WARN [Worker-12: Building workspace] - ScalaProject - Project Learning runs on platform default installation.
+2018-08-28 01:38:13,542 ERROR [Text Viewer Hover Presenter] - System.err - Exception in thread "Text Viewer Hover Presenter"
+2018-08-28 01:38:13,542 ERROR [Text Viewer Hover Presenter] - System.err - java.lang.NoSuchMethodError: org.eclipse.jdt.internal.core.SearchableEnvironment.<init>(Lorg/eclipse/jdt/internal/core/JavaProject;Lorg/eclipse/jdt/core/WorkingCopyOwner;)V
+2018-08-28 01:38:13,542 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.core.internal.compiler.LocateSymbol.findPath$1(LocateSymbol.scala:53)
+2018-08-28 01:38:13,542 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.core.internal.compiler.LocateSymbol.findSourceFile$1(LocateSymbol.scala:73)
+2018-08-28 01:38:13,542 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.core.internal.compiler.LocateSymbol.findCompilationUnit(LocateSymbol.scala:75)
+2018-08-28 01:38:13,542 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.core.internal.compiler.LocateSymbol.findCompilationUnit$(LocateSymbol.scala:18)
+2018-08-28 01:38:13,542 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.core.internal.compiler.ScalaPresentationCompiler.findCompilationUnit(ScalaPresentationCompiler.scala:54)
+2018-08-28 01:38:13,542 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.core.internal.compiler.Scaladoc.parsedDocComment(ScalaDoc.scala:48)
+2018-08-28 01:38:13,542 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.core.internal.compiler.Scaladoc.parsedDocComment$(ScalaDoc.scala:45)
+2018-08-28 01:38:13,543 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.core.internal.compiler.ScalaPresentationCompiler.parsedDocComment(ScalaPresentationCompiler.scala:54)
+2018-08-28 01:38:13,543 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.ui.internal.editor.hover.ScalaHoverImpl.$anonfun$getHoverInfo2$25(ScalaHoverImpl.scala:227)
+2018-08-28 01:38:13,543 ERROR [Text Viewer Hover Presenter] - System.err - at scala.Option$WithFilter.flatMap(Option.scala:171)
+2018-08-28 01:38:13,543 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.ui.internal.editor.hover.ScalaHoverImpl.docComment$lzycompute$1(ScalaHoverImpl.scala:226)
+2018-08-28 01:38:13,543 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.ui.internal.editor.hover.ScalaHoverImpl.docComment$1(ScalaHoverImpl.scala:205)
+2018-08-28 01:38:13,543 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.ui.internal.editor.hover.ScalaHoverImpl.$anonfun$getHoverInfo2$2(ScalaHoverImpl.scala:238)
+2018-08-28 01:38:13,543 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.core.compiler.InteractiveCompilationUnit.$anonfun$withSourceFile$1(InteractiveCompilationUnit.scala:201)
+2018-08-28 01:38:13,543 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.core.internal.compiler.PresentationCompilerProxy.$anonfun$internal$5(PresentationCompilerProxy.scala:101)
+2018-08-28 01:38:13,543 ERROR [Text Viewer Hover Presenter] - System.err - at scala.Option.flatMap(Option.scala:171)
+2018-08-28 01:38:13,543 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.core.internal.compiler.PresentationCompilerProxy.internal(PresentationCompilerProxy.scala:100)
+2018-08-28 01:38:13,543 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.core.internal.compiler.PresentationCompilerProxy.apply(PresentationCompilerProxy.scala:58)
+2018-08-28 01:38:13,543 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.core.compiler.InteractiveCompilationUnit.withSourceFile(InteractiveCompilationUnit.scala:201)
+2018-08-28 01:38:13,543 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.core.compiler.InteractiveCompilationUnit.withSourceFile$(InteractiveCompilationUnit.scala:200)
+2018-08-28 01:38:13,543 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.core.internal.jdt.model.ScalaSourceFile.withSourceFile(ScalaSourceFile.scala:71)
+2018-08-28 01:38:13,543 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.ui.internal.editor.hover.ScalaHoverImpl.$anonfun$getHoverInfo2$1(ScalaHoverImpl.scala:103)
+2018-08-28 01:38:13,543 ERROR [Text Viewer Hover Presenter] - System.err - at scala.Option.map(Option.scala:146)
+2018-08-28 01:38:13,543 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.ui.internal.editor.hover.ScalaHoverImpl.getHoverInfo2(ScalaHoverImpl.scala:101)
+2018-08-28 01:38:13,543 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.debug.internal.editor.TextHoverFactory$$anon$1.super$getHoverInfo2(TextHoverFactory.scala:53)
+2018-08-28 01:38:13,543 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.debug.internal.editor.TextHoverFactory$$anon$1.$anonfun$getHoverInfo2$6(TextHoverFactory.scala:53)
+2018-08-28 01:38:13,543 ERROR [Text Viewer Hover Presenter] - System.err - at scala.Option.getOrElse(Option.scala:121)
+2018-08-28 01:38:13,543 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.debug.internal.editor.TextHoverFactory$$anon$1.$anonfun$getHoverInfo2$1(TextHoverFactory.scala:51)
+2018-08-28 01:38:13,543 ERROR [Text Viewer Hover Presenter] - System.err - at scala.Option.map(Option.scala:146)
+2018-08-28 01:38:13,543 ERROR [Text Viewer Hover Presenter] - System.err - at org.scalaide.debug.internal.editor.TextHoverFactory$$anon$1.getHoverInfo2(TextHoverFactory.scala:37)
+2018-08-28 01:38:13,543 ERROR [Text Viewer Hover Presenter] - System.err - at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+2018-08-28 01:45:08,012  WARN [ModalContext] - ScalaProject - Project Learning has platform default sourceLevel.
+2018-08-28 01:45:08,012  WARN [ModalContext] - ScalaProject - Project Learning runs on platform default installation.
+2018-08-28 01:45:31,677  WARN [ModalContext] - ScalaProject - Project Learning has platform default sourceLevel.
+2018-08-28 01:45:31,677  WARN [ModalContext] - ScalaProject - Project Learning runs on platform default installation.
+2018-08-28 01:45:31,683  WARN [ModalContext] - ScalaProject - Project Learning has platform default sourceLevel.
+2018-08-28 01:45:31,683  WARN [ModalContext] - ScalaProject - Project Learning runs on platform default installation.
+2018-08-28 01:45:31,882  WARN [Worker-16: Building workspace] - ScalaProject - Project Learning has platform default sourceLevel.
+2018-08-28 01:45:31,882  WARN [Worker-16: Building workspace] - ScalaProject - Project Learning runs on platform default installation.
+2018-08-28 01:46:05,919  WARN [main] - ScalaProject - Project Learning has platform default sourceLevel.
+2018-08-28 01:46:05,919  WARN [main] - ScalaProject - Project Learning runs on platform default installation.
+2018-08-28 01:46:06,769  WARN [main] - ScalaProject - Project Learning has platform default sourceLevel.
+2018-08-28 01:46:06,769  WARN [main] - ScalaProject - Project Learning runs on platform default installation.
+2018-08-28 01:46:07,025  WARN [Worker-7: Building workspace] - ScalaProject - Project Learning has platform default sourceLevel.
+2018-08-28 01:46:07,025  WARN [Worker-7: Building workspace] - ScalaProject - Project Learning runs on platform default installation.
+2018-08-28 01:46:29,952  WARN [Worker-17: Building workspace] - ScalaProject - Project Learning has platform default sourceLevel.
+2018-08-28 01:46:29,952  WARN [Worker-17: Building workspace] - ScalaProject - Project Learning runs on platform default installation.
+2018-08-30 05:45:17,799  WARN [main] - ScalaProject - Project Learning has platform default sourceLevel.
+2018-08-30 05:45:17,803  WARN [main] - ScalaProject - Project Learning runs on platform default installation.
+2018-08-30 05:45:17,807  WARN [main] - ScalaProject - Project Learning has platform default sourceLevel.
+2018-08-30 05:45:17,807  WARN [main] - ScalaProject - Project Learning runs on platform default installation.
+2018-08-30 05:45:21,031 ERROR [Worker-0: Launch Bar Initialization] - System.err - log4j:WARN No appenders could be found for logger (com.spotify.docker.client.DockerConfigReader).
+2018-08-30 05:45:21,033 ERROR [Worker-0: Launch Bar Initialization] - System.err - log4j:WARN Please initialize the log4j system properly.
+2018-08-30 05:50:04,944  WARN [main] - ScalaProject - Project Learning has platform default sourceLevel.
+2018-08-30 05:50:04,947  WARN [main] - ScalaProject - Project Learning runs on platform default installation.
+2018-08-30 05:50:04,952  WARN [main] - ScalaProject - Project Learning has platform default sourceLevel.
+2018-08-30 05:50:04,952  WARN [main] - ScalaProject - Project Learning runs on platform default installation.
+2018-08-30 05:50:08,018 ERROR [Worker-0: Launch Bar Initialization] - System.err - log4j:WARN No appenders could be found for logger (com.spotify.docker.client.DockerConfigReader).
+2018-08-30 05:50:08,020 ERROR [Worker-0: Launch Bar Initialization] - System.err - log4j:WARN Please initialize the log4j system properly.

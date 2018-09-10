@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/img_1" />
+
+    <TextView
+        android:id="@+id/lblTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/img"
+        android:layout_toRightOf="@id/img"
+        android:padding="5dp"
+        android:text="Hello" />
+
+    <TextView
+        android:id="@+id/lblRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lblTitle"
+        android:layout_toEndOf="@id/img"
+        android:layout_toRightOf="@id/img"
+        android:padding="5dp"
+        android:text="Hello" />
+
+    <Button
+        android:id="@+id/btnRate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="15dp"
+        android:text="@string/rate" />
+</RelativeLayout>

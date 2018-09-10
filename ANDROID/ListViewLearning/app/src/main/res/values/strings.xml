@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Nourish Local</string>
+    <string name="feed">Feed</string>
+    <string name="plant">Plant</string>
+    <string name="shopping">Shopping</string>
+    <string name="cook">Cook</string>
+    <string name="make">Make</string>
+    <string name="friend_name_here">Friend name</string>
+    <string name="friend_name">friendName</string>
+    <string name="community_key">community_key</string>
+    <string name="share_with">Share with</string>
+    <string-array name="types">
+
+        <item>@string/shopping</item>
+        <item>@string/make</item>
+        <item>@string/plant</item>
+        <item>@string/feed</item>
+        <item>@string/cook</item>
+
+    </string-array>
+    <string name="make_description">Making your product locally contributes to increasing career opportunities in local workshops and factories. When you spend money for a local workshop or factory, it strengthens the local economy of the community and increases the development of other local sectors. Benefits of the local industry that you can order less quantities as soon as possible and the discovery of product errors as soon as possible and immediately repaired because of the lack of transit and border customs. When working with a craftsman or a local factory, communication is easier, resulting in more efficient work and production.</string>
+    <string name="cook_description">Cooking can be the beginning of your healthy life, by exploring healthy recipes and learning about food. Cooking for yourself and your family helps you to see if there is an allergy to certain foods. You can choose a day of the week to be cooked at home with family or friends. This will help strengthen the relationship and make it easier for you to cook on your own.</string>
+    <string name="eat_description">Buying food domestically enhances local farms and helps increase new job opportunities in food processing, transportation and distribution of food and money spent locally as an investment in the local economy.</string>
+    <string name="grow_description">When cultivating food locally you contribute to the preservation of agricultural land and open spaces in your community. Local agriculture helps to reduce fuel consumption globally, because of the proximity of the distance to carry food, which leads to the preservation of the environment.</string>
+    <string name="shop_description">The purchase of local products contributes to the strengthening of the local economy of society, reduces the use of fuel globally due to the short distance of transportation of products, and increases the determination of the owner to produce locally. When dealing with a local start-up company, the project owner will be closer to your customers, leading to better service for you.</string>
+</resources>

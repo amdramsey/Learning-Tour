@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">اماكن تاريخية</string>
+    <string name="rate">قيم</string>
+    <string name="petra">البترا</string>
+    <string name="bahrain_castle">قلعة البحرين - مرفأ قديم وعاصمة دلمون</string>
+    <string name="gemayle">جيميلة</string>
+    <string name="the_stone">الحجر (مدائن صالح)</string>
+    <string name="meroe_island">المواقع الأثرية في جزيرة مروي</string>
+    <string name="urban">مملكة الحضر</string>
+    <string name="fez">مدينة فاذ القديمة</string>
+    <string name="shibam">مدينة شبام القديمة وسورها</string>
+    <string name="tunis">مدينة تونس القديمة</string>
+    <string name="labban">أرض اللبان</string>
+    <string name="zubara">قلعة الزبارة</string>
+    <string name="hitan">وادي الحيتان</string>
+    <string name="shanqeet">قصور وادان وشنقيط وتيشيت وولاتة القديمة</string>
+    <string name="baalbek">بعلبك</string>
+    <string name="tatarrat">مواقع تادرارت أكاكوس الصخرية</string>
+    <string name="nativity">كنيسة المهد</string>
+    <string-array name="names">
+        <item>@string/petra</item>
+        <item>@string/bahrain_castle</item>
+        <item>@string/gemayle</item>
+        <item>@string/the_stone</item>
+        <item>@string/meroe_island</item>
+        <item>@string/urban</item>
+        <item>@string/fez</item>
+        <item>@string/shibam</item>
+        <item>@string/tunis</item>
+        <item>@string/labban</item>
+        <item>@string/zubara</item>
+        <item>@string/hitan</item>
+        <item>@string/shanqeet</item>
+        <item>@string/baalbek</item>
+        <item>@string/tatarrat</item>
+        <item>@string/nativity</item>
+    </string-array>
+    <string name="jordan">الأردن</string>
+    <string name="bahrain">البحرين</string>
+    <string name="algeria">الجزائر</string>
+    <string name="saudi">السعودية</string>
+    <string name="sudan">السودان</string>
+    <string name="iraq">العراق</string>
+    <string name="morocco">المغرب</string>
+    <string name="to_whom">اليمن</string>
+    <string name="tunisia">تونس</string>
+    <string name="amman">عمان</string>
+    <string name="diameter">قطر</string>
+    <string name="egypt">مصر</string>
+    <string name="mauritania">موريتانيا</string>
+    <string name="lebanon">لبنان</string>
+    <string name="libya">ليبيا</string>
+    <string name="palestine">فلسطين</string>
+    <string-array name="countries">
+        <item>@string/jordan</item>
+        <item>@string/bahrain</item>
+        <item>@string/algeria</item>
+        <item>@string/saudi</item>
+        <item>@string/sudan</item>
+        <item>@string/iraq</item>
+        <item>@string/morocco</item>
+        <item>@string/to_whom</item>
+        <item>@string/tunisia</item>
+        <item>@string/amman</item>
+        <item>@string/diameter</item>
+        <item>@string/egypt</item>
+        <item>@string/mauritania</item>
+        <item>@string/lebanon</item>
+        <item>@string/libya</item>
+        <item>@string/palestine</item>
+    </string-array>
+    <string name="evaluation">التقييم</string>
+    <string name="clear">إمسح كل التقييمات</string>
+</resources>

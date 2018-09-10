@@ -1,0 +1,11 @@
+/Users/apple/Documents/WS/C#/Learning/Learning/Learning/bin/Debug/netcoreapp2.1/Learning.deps.json
+/Users/apple/Documents/WS/C#/Learning/Learning/Learning/bin/Debug/netcoreapp2.1/Learning.runtimeconfig.json
+/Users/apple/Documents/WS/C#/Learning/Learning/Learning/bin/Debug/netcoreapp2.1/Learning.runtimeconfig.dev.json
+/Users/apple/Documents/WS/C#/Learning/Learning/Learning/bin/Debug/netcoreapp2.1/Learning.dll
+/Users/apple/Documents/WS/C#/Learning/Learning/Learning/bin/Debug/netcoreapp2.1/Learning.pdb
+/Users/apple/Documents/WS/C#/Learning/Learning/Learning/obj/Debug/netcoreapp2.1/Learning.csprojResolveAssemblyReference.cache
+/Users/apple/Documents/WS/C#/Learning/Learning/Learning/obj/Debug/netcoreapp2.1/Learning.csproj.CoreCompileInputs.cache
+/Users/apple/Documents/WS/C#/Learning/Learning/Learning/obj/Debug/netcoreapp2.1/Learning.AssemblyInfoInputs.cache
+/Users/apple/Documents/WS/C#/Learning/Learning/Learning/obj/Debug/netcoreapp2.1/Learning.AssemblyInfo.cs
+/Users/apple/Documents/WS/C#/Learning/Learning/Learning/obj/Debug/netcoreapp2.1/Learning.dll
+/Users/apple/Documents/WS/C#/Learning/Learning/Learning/obj/Debug/netcoreapp2.1/Learning.pdb

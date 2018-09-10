@@ -1,0 +1,6 @@
+/Users/apple/Projects/LearningGtk/LearningGtk/bin/Debug/LearningGtk.exe
+/Users/apple/Projects/LearningGtk/LearningGtk/bin/Debug/LearningGtk.pdb
+/Users/apple/Projects/LearningGtk/LearningGtk/obj/x86/Debug/LearningGtk.csprojResolveAssemblyReference.cache
+/Users/apple/Projects/LearningGtk/LearningGtk/obj/x86/Debug/LearningGtk.csproj.CoreCompileInputs.cache
+/Users/apple/Projects/LearningGtk/LearningGtk/obj/x86/Debug/LearningGtk.exe
+/Users/apple/Projects/LearningGtk/LearningGtk/obj/x86/Debug/LearningGtk.pdb

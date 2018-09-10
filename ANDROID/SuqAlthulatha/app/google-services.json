@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "743990072392",
+    "firebase_url": "https://suqalthulatha.firebaseio.com",
+    "project_id": "suqalthulatha",
+    "storage_bucket": "suqalthulatha.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:743990072392:android:3acaf2f714b796db",
+        "android_client_info": {
+          "package_name": "com.aramzy.suqalthulatha"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "743990072392-6ffq26sihb5k04hcpma3gs233328f9c4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aramzy.suqalthulatha",
+            "certificate_hash": "7c5f10b780ba9ddb5d7e80a3fae6e0c67940fffb"
+          }
+        },
+        {
+          "client_id": "743990072392-qtorrbn5idga7evttq8mac5q9t6gteev.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqbZKL7o-0EsHAvGPNQ4gy21LXKJ1EoPM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "743990072392-qtorrbn5idga7evttq8mac5q9t6gteev.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

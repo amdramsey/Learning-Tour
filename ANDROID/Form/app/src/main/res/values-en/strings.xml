@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ahmed\'s app</string>
+    <string name="text">Welcome in my app, You can register as a new user or log in if you have already registered</string>
+    <string name="sign_in">Sign in</string>
+    <string name="sign_up">Sign up</string>
+    <string name="fname">First name</string>
+    <string name="lname">Last name</string>
+    <string name="uname">Username</string>
+    <string name="pass">Password</string>
+    <string name="cpass">Confirm password</string>
+    <string name="mail">Email</string>
+    <string name="cmail">Confirm email</string>
+    <string name="bdate">Date of Birth</string>
+    <string name="back">Back</string>
+    <string name="email_does_not_match">Email does not match</string>
+    <string name="password_does_not_match">Password does not match</string>
+    <string name="wrong">Please make sure you do not leave any blank fields and do not leave spaces between words</string>
+</resources>

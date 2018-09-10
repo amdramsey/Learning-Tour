@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">تطبيق أحمد</string>
+    <string name="text">اهلا بك فى تطبيقى يمكنك التسجيل كمستخدم جديد او تسجيل الدخول إذا سجلت من قبل</string>
+    <string name="sign_in">تسجيل الدخول</string>
+    <string name="sign_up">تسجيل</string>
+    <string name="fname">الإسم الأول</string>
+    <string name="lname">الإسم الأخير</string>
+    <string name="uname">إسم المستخدم</string>
+    <string name="pass">كلمة المرور</string>
+    <string name="cpass">كرر كلمة المرور</string>
+    <string name="mail">البريد الإلكترونى</string>
+    <string name="cmail">كرر البريد الإلكترونى</string>
+    <string name="bdate">تاريخ الميلاد</string>
+    <string name="back">إلى الخلف</string>
+    <string name="email_does_not_match">البريد الإلكتروني لا يتطابق</string>
+    <string name="password_does_not_match">كلمة السر غير متطابقة</string>
+    <string name="wrong">يرجى التأكد من عدم ترك أي حقول فارغة وعدم ترك مسافات بين الكلمات</string>
+</resources>

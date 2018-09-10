@@ -1,0 +1,15 @@
+#include<iostream>
+std::string name;
+std::string country;
+std::string password;
+std::string cpassword;
+std::string mail;
+std::string checkStr;
+int age;
+bool check;
+int main() {
+	name:
+		std::cout << "name" << std::endl;
+	name;
+	return 0;
+}

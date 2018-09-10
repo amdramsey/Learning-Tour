@@ -1,0 +1,6 @@
+/Users/apple/Documents/WS/C#/MultiplicationTable/MultiplicationTable/bin/Debug/MultiplicationTable.exe
+/Users/apple/Documents/WS/C#/MultiplicationTable/MultiplicationTable/bin/Debug/MultiplicationTable.pdb
+/Users/apple/Documents/WS/C#/MultiplicationTable/MultiplicationTable/obj/x86/Debug/MultiplicationTable.csprojResolveAssemblyReference.cache
+/Users/apple/Documents/WS/C#/MultiplicationTable/MultiplicationTable/obj/x86/Debug/MultiplicationTable.csproj.CoreCompileInputs.cache
+/Users/apple/Documents/WS/C#/MultiplicationTable/MultiplicationTable/obj/x86/Debug/MultiplicationTable.exe
+/Users/apple/Documents/WS/C#/MultiplicationTable/MultiplicationTable/obj/x86/Debug/MultiplicationTable.pdb

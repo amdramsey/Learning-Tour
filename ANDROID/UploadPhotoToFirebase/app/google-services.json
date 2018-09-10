@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "85062256796",
+    "firebase_url": "https://uploadphototofirebase-861dc.firebaseio.com",
+    "project_id": "uploadphototofirebase-861dc",
+    "storage_bucket": "uploadphototofirebase-861dc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:85062256796:android:cb227692a35f6230",
+        "android_client_info": {
+          "package_name": "com.aramzy.uploadphototofirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "85062256796-2arb6ucqgdctll9lu1elu3kmgr0jsl55.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aramzy.uploadphototofirebase",
+            "certificate_hash": "7c5f10b780ba9ddb5d7e80a3fae6e0c67940fffb"
+          }
+        },
+        {
+          "client_id": "85062256796-uvr0f4tak4sg4kodr4sgl97j9bp9angb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAA5nZD4YNe8Hg3zq926qzJ6jDmxrmqLsc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "85062256796-uvr0f4tak4sg4kodr4sgl97j9bp9angb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

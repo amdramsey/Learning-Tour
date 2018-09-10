@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "8048811059",
+    "firebase_url": "https://firebasrealtimelearning.firebaseio.com",
+    "project_id": "firebasrealtimelearning",
+    "storage_bucket": "firebasrealtimelearning.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:8048811059:android:7dd3e2969cfda9da",
+        "android_client_info": {
+          "package_name": "com.aramzy.firebasrealtimelearning"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "8048811059-6mo01h7r94e8h6slvlpa8srfu9pf58mc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aramzy.firebasrealtimelearning",
+            "certificate_hash": "7c5f10b780ba9ddb5d7e80a3fae6e0c67940fffb"
+          }
+        },
+        {
+          "client_id": "8048811059-9j17mkgagr1jl89eem3f96mop6drjboj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAizcT4C1Fb56NGZIzxrbaaVr4VjSiwMGA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "8048811059-9j17mkgagr1jl89eem3f96mop6drjboj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

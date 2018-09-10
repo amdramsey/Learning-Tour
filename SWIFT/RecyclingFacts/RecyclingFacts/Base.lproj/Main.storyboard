@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="RecyclingFacts" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="بداية من عام 2015 جميع سكان نيويورك عليهم اعادة تدوير الاجهزة الالكترونية والا سيواجهون غرامه مقدارها 100 دولا" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8r8-jA-VK8">
+                                <rect key="frame" x="20" y="374.33333333333331" width="335" height="64.666666666666686"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="حقائق إعادة التدوير" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UmC-ls-j8E">
+                                <rect key="frame" x="217.33333333333337" y="45" width="137.66666666666663" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="0.5" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RPF-i1-noo">
+                                <rect key="frame" x="20" y="728" width="335" height="50"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="exs-Hu-MWL"/>
+                                </constraints>
+                                <color key="tintColor" red="0.35294117650000001" green="0.73333333329999995" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="اعطنى ما عندك"/>
+                                <connections>
+                                    <action selector="showNewFact" destination="BYZ-38-t0r" eventType="touchUpInside" id="2l2-7T-8pw"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.3529411764705882" green="0.73333333333333328" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="8r8-jA-VK8" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="4g9-Cn-AaN"/>
+                            <constraint firstItem="8r8-jA-VK8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="FyP-UD-1pp"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="UmC-ls-j8E" secondAttribute="trailing" constant="20" id="JFF-du-gGR"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="RPF-i1-noo" secondAttribute="trailing" constant="20" id="fSF-Ge-7bw"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8r8-jA-VK8" secondAttribute="trailing" constant="20" id="lc3-6W-jMp"/>
+                            <constraint firstItem="RPF-i1-noo" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="n8m-tW-dDT"/>
+                            <constraint firstItem="RPF-i1-noo" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="nch-g1-nD3"/>
+                            <constraint firstItem="UmC-ls-j8E" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="1" id="nvt-FU-dCI"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="factButton" destination="RPF-i1-noo" id="gxj-kt-p57"/>
+                        <outlet property="factLabel" destination="8r8-jA-VK8" id="CeE-td-z3g"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="132.26600985221674"/>
+        </scene>
+    </scenes>
+</document>

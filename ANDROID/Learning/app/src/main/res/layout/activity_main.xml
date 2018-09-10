@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteY="81dp"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:ems="10"
+        android:hint="@string/hint1"
+        android:inputType="textMultiLine"
+        android:scrollbars="horizontal|vertical"
+        android:textSize="14sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/size"
+            android:textColor="@color/Black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/lblFontSize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/font_size"
+            android:textColor="@color/Blue"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnP"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp"
+            android:background="@drawable/btn_style"
+            android:text="@string/p" />
+
+        <Button
+            android:id="@+id/btnM"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/btn_style"
+            android:text="@string/m" />
+
+        <CheckBox
+            android:id="@+id/cbx1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bold" />
+
+        <CheckBox
+            android:id="@+id/cbx2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/underline" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/color"
+            android:textColor="@color/Black"
+            android:textSize="20sp" />
+
+        <Spinner
+            android:id="@+id/spinColor"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/font"
+            android:textColor="@color/Black"
+            android:textSize="20sp" />
+
+        <Spinner
+            android:id="@+id/spinFont"
+            android:layout_width="307dp"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fn"
+            android:textColor="@color/Black"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/txtFN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint2"
+            android:inputType="textPersonName"
+            android:textColorHint="@color/Blue2" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnN"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/btn_style"
+            android:text="@string/n" />
+
+        <Button
+            android:id="@+id/btnS"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/btn_style"
+            android:text="@string/s" />
+
+        <Button
+            android:id="@+id/btnG"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:background="@drawable/btn_style"
+            android:text="@string/g" />
+    </LinearLayout>
+</LinearLayout>

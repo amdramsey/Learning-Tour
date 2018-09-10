@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">My words</string>
+    <string name="size">Size: </string>
+    <string name="bold">Bold</string>
+    <string name="underline">Underline</string>
+    <string name="color">Color: </string>
+    <string name="font">Font: </string>
+    <string name="align">Alignment</string>
+    <string name="ltr">Left to right</string>
+    <string name="rtl">Right to left</string>
+    <string name="fn">File name: </string>
+    <string name="n">New</string>
+    <string name="s">Save</string>
+    <string name="g">Get file</string>
+    <string name="p">+</string>
+    <string name="m">-</string>
+    <string name="font_size">14</string>
+    <string name="hint1">Write here</string>
+    <string name="hint2">Enter file name here</string>
+</resources>

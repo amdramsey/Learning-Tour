@@ -1,0 +1,2 @@
+info = {"first_name" => "Ahmed", "last_name" => "Ramsey", "age" => 16}
+puts info["first_name"]
